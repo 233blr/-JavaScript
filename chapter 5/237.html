@@ -35,6 +35,13 @@
         convertible: false,
         mileage: 88000
       };
+      function car(item) {
+        for (var prop in item) {
+          var show = prop + " : " + item[prop];
+        }
+        return console.log(show);
+      }
+      showMe = car(taxi);
     </script>
   </body>
 </html>
