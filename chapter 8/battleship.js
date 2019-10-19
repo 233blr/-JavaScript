@@ -128,8 +128,6 @@ var controller = {
   }
 };
 
-// helper function to parse a guess from the user
-
 function parseGuess(guess) {
   var alphabet = ["A", "B", "C", "D", "E", "F", "G"];
 
