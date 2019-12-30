@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var numArr = [1, 25, 88, 75, 54, 45, 23, 44, 24, 96, 87];
+
+      function compareNum(num1, num2) {
+        if (num1 < num2) {
+          return -1;
+        } else if (num1 === num2) {
+          return 0;
+        } else {
+          return 1;
+        }
+      }
+
+      numArr.sort(compareNum);
+      console.log(numArr);
+    </script>
+  </body>
+</html>
