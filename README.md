@@ -1,4 +1,6 @@
-# LearnJavaScript
+# Head First JavaScript Programming
+
+Examples from the book "Head First JavaScript Programming"
 
 [Book Web-site](https://wickedlysmart.com)
 
